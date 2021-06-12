@@ -3,30 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <title>Visualization Page 1</title>
+   <!-- Bring in bootstrap stylesheet -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar">
-          <ul>
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="viz_page2.html">Viz 2</a>
-            </li>
-            <li>
-              <a href="viz_page3.html">Viz 3</a>
-            </li>
-            <li>
-              <a href="viz_page4.html">Viz 4</a>
-            </li>
-            <li>
-              <a href="data.html">Data</a>
-            </li>
-            <li>
-              <a href="comparisons.html">Comparisons</a>
-            </li>
-          </ul>
-        </nav>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Plots
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="viz_page2.html">Plot 2</a>
+          <a class="dropdown-item" href="viz_page3.html">Plot 3</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="viz_page4.html">Plot 4</a>
+        </div>
+       
   <!-- Header -->
   <h1>Visualization Page 1</h1>
   <!-- Image -->
@@ -34,17 +31,7 @@
 <p>Paragraph here describing the plot and its significance.</p>
 
 <p>
-  <a href="index.html">Landing Page</a>
-</p>
-
-<p>
-  <a href="viz_page3.html">Link to Visualization #3</a>
-</p>
-<p>
-  <a href="viz_page4.html">Link to Visualization #4</a>
-</p>
-<p>
-  <a href="viz_page4.html">Link to Visualization #4</a>
+  <a href="data.html">Link to Data Page</a>
 </p>
 <p>
   <a href="comparisons.html">Link to Comparisons Page</a>
