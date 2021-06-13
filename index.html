@@ -11,28 +11,23 @@
     <!-- Rows function in containers (grid created). -->
     <div class="container">
 
-      <nav class="navbar">
-        <ul>
-          <li>
-            <a href="viz_page1.html">Viz 1</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li>
-            <a href="viz_page2.html">Viz 2</a>
-          </li>
-          <li>
-            <a href="viz_page3.html">Viz 3</a>
-          </li>
-          <li>
-            <a href="viz_page4.html">Viz 4</a>
-          </li>
-          <li>
-            <a href="data.html">Data</a>
-          </li>
-          <li>
-            <a href="comparisons.html">Comparisons</a>
-          </li>
-        </ul>
-      </nav>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="viz_page1.html">Plot 1</a>
+              <a class="dropdown-item" href="viz_page2.html">Plot 2</a>
+              <a class="dropdown-item" href="viz_page3.html">Plot 3</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="viz_page4.html">Plot 4</a>
+            </div>
+
 <h1>Web Visualization Dashboard</h1>
 
 <!-- Columns have 12 areas of width to work with. -->
@@ -61,7 +56,7 @@
                 <div class="caption">
                     <h3>Fig1</h3>
                     <p>...</p>
-                    <p><a href="viz_page1.html" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    <p><a href="viz_page1.html" class="btn btn-primary" role="button">Button</a> <a href="viz_page1.html" class="btn btn-default" role="button">Button</a></p>
                   </div>
               </div>
               <div class="col-md-3">
@@ -71,7 +66,7 @@
                 <div class="caption">
                     <h3>Fig2</h3>
                     <p>...</p>
-                    <p><a href="viz_page2.html" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    <p><a href="viz_page2.html" class="btn btn-primary" role="button">Button</a> <a href="viz_page2.html" class="btn btn-default" role="button">Button</a></p>
                 </div>
               </div>
               <div class="col-md-3">
@@ -81,7 +76,7 @@
                   <div class="caption">
                       <h3>Fig3</h3>
                       <p>...</p>
-                      <p><a href="viz_page3.html" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                      <p><a href="viz_page3.html" class="btn btn-primary" role="button">Button</a> <a href="viz_page3.html" class="btn btn-default" role="button">Button</a></p>
                 </div>
                 <div class="col-md-3">
                   <div class="thumbnail">
@@ -90,11 +85,11 @@
                   <div class="caption">
                       <h3>Fig4</h3>
                       <p>...</p>
-                      <p><a href="viz_page4.html" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                      <p><a href="viz_page4.html" class="btn btn-primary" role="button">Button</a> <a href="viz_page4.html" class="btn btn-default" role="button">Button</a></p>
                 </div>
               </div>
           </div>
-</div>
+  </div>
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
