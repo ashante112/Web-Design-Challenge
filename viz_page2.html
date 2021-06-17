@@ -2,60 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Visualization Page 2</title>
+  <title>City Latitude vs. Humidity</title>
    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar">
-          <ul>
-            <li>
-              <a href="viz_page1.html">Viz 1</a>
-            </li>
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="viz_page3.html">Viz 3</a>
-            </li>
-            <li>
-              <a href="viz_page4.html">Viz 4</a>
-            </li>
-            <li>
-              <a href="data.html">Data</a>
-            </li>
-            <li>
-              <a href="comparisons.html">Comparisons</a>
-            </li>
-          </ul>
-        </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Plots
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="viz_page1.html">Plot 1</a>
+          <a class="dropdown-item" href="viz_page3.html">Plot 3</a>
+          <a class="dropdown-item" href="viz_page4.html">Plot 4</a>
+        </div>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="comparisons.html">Comparisons <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="data.html">Data <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>  
+  </div>
+  </nav>
   <section>
     <hr>
     <!-- Header -->
-    <h1>Visualization Page 2</h1>
+    <h1>City Latitude vs. Humidity</h1>
     <!-- Image -->
     <img src="Resources/assets/images/Fig2.png" alt="Fig2" />
-  <p>Paragraph here describing the plot and its significance.</p>
-
-  <section>
-    <hr>
-    <h2>Visualizations</h2>
-
-    <p>
-      <a href="index.html">Landing Page</a>
-    </p>
-    <p>
-      <a href="viz_page1.html">Link to Visualization #1</a>
-    </p>
-    <p>
-      <a href="viz_page3.html">Link to Visualization #3</a>
-    </p>
-    <p>
-      <a href="viz_page4.html">Link to Visualization #4</a>
-    </p>
-    <p>
-      <a href="comparisons.html">Link to Comparisons Page</a>
-    </p>
-  </section>
+  <p>This visualization depicts the correlation between latitude and humidity.  The cities in this dataset show no direct correlation with humidity and their latitude. A key observation is that the majority of cities have a humidity percentage that is 60% or greater. Another notable observation is that while the data contains significant samples of cities that have 100% humidity spanning the entire latitude range, while conversely, their is a cluster of samples with 0% humidity that only fall in the highest latitude range, namely the coldest region on the earth. </p>
  
 </body>
 </html>
