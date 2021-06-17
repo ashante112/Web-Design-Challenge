@@ -2,13 +2,15 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Visualization Page 1</title>
+  <title>City Latitude vs. Max Temperature</title>
    <!-- Bring in bootstrap stylesheet -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -20,17 +22,18 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="viz_page2.html">Plot 2</a>
           <a class="dropdown-item" href="viz_page3.html">Plot 3</a>
-          <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="viz_page4.html">Plot 4</a>
         </div>
       </li>
     </ul>
   </div>  
+  </div>
+  </nav>
   <!-- Header -->
-  <h1>Visualization Page 1</h1>
+  <h1>City Latitude vs. Max Temperature (F)</h1>
   <!-- Image -->
   <img src="Resources/assets/images/Fig1.png" alt="Fig1" />
-<p>Paragraph here describing the plot and its significance.</p>
+<p>This chart displays the correlation between the city latitude and max temperature.  As represented in this visualization, the max temperatures tend to trend closer to the equator at 0 Latitude. At the quator, the max temperature shows a more concentrated trend around 75 degrees F. As the Latitude increases, the temperature shows a gradual decrease, with the most extreme lows plotting in the highest latitudes of 80N-90N. On the other end, the temperature similarly decreases as the latitude decreases, but not the extent of the extreme temperatures seen in the highest latitudes.</p>
 
 <p>
   <a href="data.html">Link to Data Page</a>
